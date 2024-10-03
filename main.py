@@ -34,13 +34,17 @@ entryField.grid(row = 0, column = 0, padx = 10, pady = 10, columnspan = 4)
 
 # Buttons 
 # Row 1
-b7 = customtkinter.CTkButton(root, text = '7', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2', fg_color = 'grey15', hover_color = 'grey29', command = lambda :click('7'))
+b7 = customtkinter.CTkButton(root, text = '7', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2', 
+                             fg_color = 'grey15', hover_color = 'grey29', command = lambda :click('7'))
 b7.grid(row = 1, column = 0, pady = 10)
-b8 = customtkinter.CTkButton(root, text = '8', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2', fg_color = 'grey15', hover_color = 'grey29',command = lambda :click('8'))
+b8 = customtkinter.CTkButton(root, text = '8', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2',
+                             fg_color = 'grey15', hover_color = 'grey29',command = lambda :click('8'))
 b8.grid(row = 1, column = 1)
-b9 = customtkinter.CTkButton(root, text = '9', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2', fg_color = 'grey15', hover_color = 'grey29', command = lambda :click('9'))
+b9 = customtkinter.CTkButton(root, text = '9', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2', 
+                             fg_color = 'grey15', hover_color = 'grey29', command = lambda :click('9'))
 b9.grid(row = 1, column = 2)
-bplus = customtkinter.CTkButton(root, text = '+', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2', fg_color ='SteelBlue4', hover_color = 'LightSteelBlue4', command = lambda :click('+'))
+bplus = customtkinter.CTkButton(root, text = '+', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2',
+                                 fg_color ='SteelBlue4', hover_color = 'LightSteelBlue4', command = lambda :click('+'))
 bplus.grid(row = 1, column = 3)
 
 #Row 2
@@ -68,24 +72,24 @@ b3 = customtkinter.CTkButton(root, text = '3', font = ('arial', 20, 'bold'), wid
                              fg_color = 'grey15', hover_color = 'grey29',command = lambda :click('3'))
 b3.grid(row = 3, column = 2)
 bmultiply = customtkinter.CTkButton(root, text = '*', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2',
-                             fg_color ='SteelBlue4', hover_color = 'LightSteelBlue4', command = lambda :click('*'))
+                                    fg_color ='SteelBlue4', hover_color = 'LightSteelBlue4', command = lambda :click('*'))
 bmultiply.grid(row = 3, column = 3)
 #Row 4
 b0 = customtkinter.CTkButton(root, text = '0', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2',
-                             fg_color = 'grey15', hover_color = 'grey29', command = lambda :click('0'))
+                            fg_color = 'grey15', hover_color = 'grey29', command = lambda :click('0'))
 b0.grid(row = 4, column = 0, pady = 10)
 bdot = customtkinter.CTkButton(root, text = '.', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2',
-                             fg_color = 'grey15', hover_color = 'grey29',command = lambda :click('.'))
+                              fg_color = 'grey15', hover_color = 'grey29',command = lambda :click('.'))
 bdot.grid(row = 4, column = 1)
 bclear = customtkinter.CTkButton(root, text = 'C', font = ('arial', 20, 'bold'), 
                                  width = 60, bg_color = 'black', cursor = 'hand2', fg_color = 'red', hover_color = 'red2', command = clear)
 bclear.grid(row = 4, column = 2)
 bdivision = customtkinter.CTkButton(root, text = '/', font = ('arial', 20, 'bold'), width = 60, bg_color = 'black', cursor = 'hand2',
-                             fg_color ='SteelBlue4', hover_color = 'LightSteelBlue4', command = lambda :click('/'))
+                                    fg_color ='SteelBlue4', hover_color = 'LightSteelBlue4', command = lambda :click('/'))
 bdivision.grid(row = 4, column = 3)
 
 bequal = customtkinter.CTkButton(root, text = '=', font = ('arial', 20, 'bold'), width = 283, bg_color = 'black', cursor = 'hand2',
-                             fg_color ='SteelBlue4', hover_color = 'LightSteelBlue4', command = answer)
+                                 fg_color ='SteelBlue4', hover_color = 'LightSteelBlue4', command = answer)
 bequal.grid(row = 5, column = 0, columnspan = 4)
 
 root.mainloop()
